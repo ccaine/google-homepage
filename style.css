@@ -1,0 +1,88 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    display: block;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ft a {
+    color: gray;
+}
+
+.search {
+    width: 500px;
+    height: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    box-shadow:  0 6px 20px 0 rgba(80, 80, 80, 0.19);
+}
+
+.button {
+    float: right;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: rgb(235, 235, 235);
+    border:none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.menu{
+    width: 20px;
+    float: right;
+    margin: 5px 20px;
+}
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+    background-color: rgb(240, 240, 240);
+}
